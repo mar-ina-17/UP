@@ -294,6 +294,7 @@ int main()
     dominoBlocks.newChain(size);
 
     dominoFunction(dominoGameCombo, dominoBlocks);
-
+    dominoGameCombo.deleteChain();
+    dominoBlocks.deleteChain();
     return 0;
 }
